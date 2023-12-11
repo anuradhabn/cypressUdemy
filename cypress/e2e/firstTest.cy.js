@@ -11,7 +11,7 @@ describe('First Test Suite',() => {
 
       cy.visit('/') // because this application is at the same location of base url which
       //is provided in config file
-      cy.contains('Forms').click()
+      cy.contains('Forms').click()   
       cy.contains('Form Layouts').click()
 
       // locators
